@@ -6,7 +6,7 @@
 <br><br>The PoC allows an attacker to obtain <strong>Remote Code Injection</strong> on a Windows victim device.
 <br>The goal of this repo is to make a PoC even more usable than the <a href=https://github.com/irsl/microsoft-diagcab-rce-poc>initial repo</a>.
 <br>DO NOT USE IT WITHOUT PRIOR AUTHORIZATION!
-<br><br><i>Regarding the damage caused and the simplicity of exploitation, ~~I hope Microsoft will fix it~~ Microsoft fix it (June 14, 2022)</i>
+<br><br><i>Regarding the damage caused and the simplicity of exploitation, I hope Microsoft will fix it</i>
 </code></pre>
 </div>
 
