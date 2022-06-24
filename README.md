@@ -90,6 +90,8 @@ The malicious `.diagcab` is available at `https://[WEBDAV_URL]/config/hotfix8952
 <div align=center>
 <img src=https://github.com/ariary/Dogwalk-rce-poc/blob/master/img/dogwalk_setup.gif>
 </div>
+<i>Note: Pay attention if you are using <code>ngrok</code>: when copy/paste url from ngrok panel, it could add some invisible characters. Hence; if you pasted it for <code>/hurry-dogwalk.sh</code> it won't work
+<br> 💡 test curl with url before: if it waits indefinitely, type the url manually instead</i>
 </details>
 
 🐾🐾
