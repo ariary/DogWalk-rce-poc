@@ -91,8 +91,7 @@ The malicious `.diagcab` is available at `https://[WEBDAV_URL]/config/hotfix8952
 <img src=https://github.com/ariary/Dogwalk-rce-poc/blob/master/img/dogwalk_setup.gif>
 </div>
 <i>
-<br> 💡 Test curl with ngrok url before: if it waits indefinitely, type the url manually instead (when copy/paste url from ngrok panel, it could add some invisible characters)</i>
-<br> 💡 Sometimes <code>ngrok</code> is simply blocked ~> use <a href=https://github.com/localtunnel/localtunnel><code>localtunnel</code></a> or <code>cloudfared tunnel</code> instead. (or your own domain)</i>
+<br> 💡 by default, it seems that webdav communication are not enabled. See <a href=./mitigations.txt>mitigations.txt</a> to get a workaround to make it work</i>
 </details>
 
 🐾🐾
