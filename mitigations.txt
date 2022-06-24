@@ -1,0 +1,14 @@
+A kind of mitigation is in place:
+The webdav server is not reached when we open the .diagcab file
+
+~> It looks like webdav is not enable yet (by default)
+~> not a browser dependant issue
+
+How to confirm that we are in this disposition?
+- dir \\webdav-test.herokuapp.com@ssl\DavWWWRoot\package (in cmd) does not work
+- file://///webdav-test.herokuapp.com@ssl/DavWWWRoot/package or file://webdav-test.herokuapp.com@ssl/DavWWWRoot/package/ do not work in browser (nothing is loaded)
+
+Workaround:
+In file explorer: specify path in the search bar "//", press ENTER
+You will see that file://///webdav-test.herokuapp.com@ssl/DavWWWRoot/package is reachable from your browser
+=> The PoC will work
