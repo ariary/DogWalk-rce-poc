@@ -21,3 +21,5 @@ You can install WebClient service on Windows Servers by executing powershell com
   # Set-Service MRxDAV -StartupType Automatic
   # Start-Service WebClient
   # Start-Service MRxDAV
+
+Also you should add one more ..\ to $MALICIOUS_PATH_PREFIX for exploit to work on Windows Servers (https://github.com/ariary/DogWalk-rce-poc/blob/9cffafdc6574c480448bcc4db846e1c14784bcf8/webdav/diagcab-webdav-poc/diagcab-webdav-poc.pl#L9)
