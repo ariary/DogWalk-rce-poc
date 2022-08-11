@@ -44,6 +44,8 @@ So, basically what we need is:
 ## Let's get it
 
 If you are too lazy (or in a hurry) to proceed step-by-steps:
+*If you are testing on Windows Servers. You may need to append one more ..\\ to $MALICIOUS_PATH_PREFIX in diagcab-webdav-poc.pl file. (https://github.com/ariary/DogWalk-rce-poc/blob/9cffafdc6574c480448bcc4db846e1c14784bcf8/webdav/diagcab-webdav-poc/diagcab-webdav-poc.pl#L9)
+
 ```shell
 ./hurry-dogwalk.sh [WEBDAV_URL]         # need docker
 # Stop the server
