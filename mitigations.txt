@@ -12,3 +12,12 @@ Workaround:
 In file explorer: specify path in the search bar "//", press ENTER
 You will see that file://///webdav-test.herokuapp.com@ssl/DavWWWRoot/package is reachable from your browser
 => The PoC will work
+
+You have to start service named WebClient to make network connection work.
+It looks like there is no WebClient service on Windows Servers by default (I worked on Server 2016).
+You can install WebClient service on Windows Servers by executing powershell commands below.
+  # Install-WindowsFeature WebDAV-Redirector –Restart
+  # Set-Service WebClient -StartupType Automatic
+  # Set-Service MRxDAV -StartupType Automatic
+  # Start-Service WebClient
+  # Start-Service MRxDAV
